@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Просмотр изображения</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="gallery">
+        <img src="https://img.freepik.com/free-photo/beautiful-shot-of-a-white-british-shorthair-kitten_181624-57681.jpg" alt="Изображение" onclick="openModal()">
+        <div class="modal" id="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <img class="modal-content" id="modalImage" src="">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
